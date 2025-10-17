@@ -1,31 +1,35 @@
-
-*{
- margin: 0;
- padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     margin-top: 15%;
-    background-color: gray;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+
 }
-.calc{
+
+.calc {
     padding: 20px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     background-color: slategray;
     font-weight: 900;
     font-size: 100px;
-  
+
 }
-.button{
-   text-align: center;
-   display: flex;
-   justify-content: space-between;
-   padding: 30px;
- 
+
+.button {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
 }
-.btn{
+
+.btn {
     color: black;
     font-size: 20px;
     font-weight: 600;
@@ -35,16 +39,17 @@ body{
     border: none;
 }
 
-.bun{
+.bun {
     color: black;
     font-size: 20px;
     font-weight: 600;
-    background-color:khaki;
+    background-color: khaki;
     padding: 10px 15px;
     border-radius: 2px;
     border: none;
 }
-.tun{
+
+.tun {
     color: black;
     font-size: 20px;
     font-weight: 600;
@@ -53,7 +58,8 @@ body{
     border-radius: 2px;
     border: none;
 }
-.div{
-    background-color:blue;
+
+.div {
+    background-color: blue;
     border-radius: 50px;
 }
